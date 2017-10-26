@@ -176,3 +176,4 @@ tiff()
   ggsave(filename=file, width=16, height=9, dpi = 300)
 dev.off()
   
+save(out$df, file='CohTimeStats.Rdata')
